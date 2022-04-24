@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .nagivation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#hero-section .text-section {
+    width: 45%;
+}
+
+#hero-section .image-section {
+    width: 55%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(../img/header-image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section h1{
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #ff6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+     color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-section {
+    width: 55%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 6%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .left-section .text-box a {
+    text-decoration: none;
+    color: black;
+}
+
+#quote-section .right-form-section h3 {
+    font-size: 48px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 2px;
+}
+
+#hero-section, #quote-section, #process-section {
+    padding: 80px 0;
+}
+
+#process-section {
+    background: #fff;
+}
+
+#process-section .process-text, #process-section .right-process {
+    width: 50%;
+}
+
+#process-section .process-text h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#process-section .process-text .text-box {
+    width: 60%;
+}
+
+#process-secton .right-process .image-div {
+    width: 50%;
+    margin-right: 20px;
+}
+
+#process-section .process-img-1, .process-img-2, .process-img-3 {
+    width: 40px;
+}
+
+#process-section .right-process .get-a-quote h4 {
+    font-size: 26px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+#process-section .right-process .get-a-quote p {
+    margin-left: 10px;
+}
+
+.vertical-line {
+    border-left: 2px dashed #FF6433;
+    height: 45px;
+    margin-left: 3%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#hero-section, #quote-section, #process-section, #offer-section {
+    padding: 80px 0;
+}
+
+#offer-section {
+    background: #F2F2f2;
+}
+
+#offer-section h4{
+     font-size: 24px;
+     text-align: center;
+}
+
+#offer-section h6 {
+    font-size: 58px;
+    text-align: center;
+}
+
+#offer-section .flex-services {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#offer-section .service-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    padding: 40px;
+    height: 180px;
+    background-color: #fff;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    color: #000;
+}
+
+#offer-section .service-box p {
+    padding-top: 5px;
+}
+
+#offer-section .service-box:hover {
+    background-color: #FF6433;
+    color: #fff;
+    font-weight: bold;
+}
+
+#offer-section .service-box.selected {
+    background-color: #FF6433;
+    color: #fff;
+    font-weight: bold;
+}
+
+#offer-section .offer-link {
+    justify-content: flex-end;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#offer-section .offer-link a{
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#offer-section .offer-link a:hover {
+    color: #FF6433;
+}
+
+#hero-section, #quote-section, #process-section, #offer-section, #Contact-us-section {
+    padding: 80px 0;
+}
+
+#Contact-us-section {
+     background: #F2F2f2;
+}
+
+#Contact-us-section .contact-image {
+    background-image: url(../img/contact\ 1.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+}
+
+#Contact-us-section .contact-image2 {
+    background-image: url(../img/contact\ 2.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+}
+
+#Contact-us-section .contact-text {
+    background-color: #FF6433;
+    height: 40vh;
+    width: 30vw;
+    margin-left: 35%;
+}
+
+#Contact-us-section .contact-textbox h3 {
+    font-size: 25px;
+    color: #fff;
+    width: 75%;
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+}
+
+#Contact-us-section .button {
+    width: 60%;
+    margin: 0 10px;
+}
+
+#Contact-us-section .black-btn {
+    background: #000;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.experience {
+    margin-top: 5%;
+}
+
+.flex-numbers {
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.ratings {
+    font-size: 50px;
+    font-weight: bold;
+    color: #661CE7;
+}
+
+.experience p {
+    opacity: 0.7;
+}
+
+#hero-section, #quote-section, #process-section, #offer-section, #Contact-us-section, #Brands-section {
+    padding: 80px 0;
+}
+
+#Brands-section {
+    background: #FAFAFA;
+}
+
+#Brands-section {
+    margin-top:  50px;
+    padding-bottom: 80px;
+}
+
+#Brands-section .brands h2 {
+    font-size: 48px;
+    text-align: center;
+}
