@@ -225,48 +225,58 @@ form {
     background: #F2F2f2;
 }
 
-#offer-section h4{
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+#offer-section .offer-header h4{
      font-size: 24px;
      text-align: center;
 }
 
-#offer-section h6 {
-    font-size: 58px;
+#offer-section .offer-header h6 {
+    font-size: 48px;
     text-align: center;
 }
 
-#offer-section .flex-services {
+#offer-section .flex-aligned {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
     align-items: center;
+    width: 80%;
     margin: 0 auto;
 }
 
-#offer-section .service-box {
+#offer-section .flex-aligned img {
+    width: 60%;
+}
+
+#offer-section .flex-box {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 70%;
     padding: 40px;
     height: 180px;
+    width: 180px;
     background-color: #fff;
     margin-bottom: 1%;
     margin-right: 1%;
     color: #000;
 }
 
-#offer-section .service-box p {
+#offer-section .flex-box p {
     padding-top: 5px;
 }
 
-#offer-section .service-box:hover {
+#offer-section .flex-box:hover {
     background-color: #FF6433;
     color: #fff;
     font-weight: bold;
 }
 
-#offer-section .service-box.selected {
+#offer-section .flex-box.selected {
     background-color: #FF6433;
     color: #fff;
     font-weight: bold;
