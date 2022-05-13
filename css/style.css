@@ -607,10 +607,6 @@ form {
 
 /* mobile view */
 @media (max-width: 426px) {
-    body {
-        overflow: hidden;
-    }
-    
     .main-header {
         flex-direction: column;
         align-items: flex-start;
@@ -893,6 +889,10 @@ form {
 
     .right-bottom-section .nagivation {
         text-align: center;
+    }
+
+    .container {
+        overflow: hidden;
     }
 
     }
