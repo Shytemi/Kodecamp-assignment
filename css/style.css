@@ -396,7 +396,7 @@ form {
 }
 
 #Brands-section .brands h2 {
-    font-size: 48px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -406,8 +406,6 @@ form {
     flex-wrap: wrap;
     justify-content: center;
     width: 120%;
-    padding-bottom: 30px;
-    padding-right: 50px
 }
 
 #hero-section, #quote-section, #process-section, #offer-section, #Contact-us-section, #Brands-section, #testi-section {
@@ -660,7 +658,7 @@ form {
 
     #hero-section .image-section {
         order: 1;
-        width: 80%;
+        width: 100%;
         margin-bottom: 30px;
     }
 
@@ -743,7 +741,7 @@ form {
     }
 
     #process-section .process-text {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
     }
 
     #offer-section .offer-header h4 {
@@ -814,7 +812,7 @@ form {
     }
 
     .brand-images .image-row {
-        width: 50%;
+        width: 60%;
     }
 
     #testi-section .testi-slider {
@@ -834,7 +832,7 @@ form {
     }
 
     #faq-section .container {
-        width: 90%;
+        width: 80%;
         padding-bottom: 50px;
     }
 
