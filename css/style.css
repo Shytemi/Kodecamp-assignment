@@ -392,8 +392,7 @@ form {
 }
 
 #Brands-section {
-    margin-top:  50px;
-    /* padding-bottom: 70px; */
+    padding-bottom: 70px;
 }
 
 #Brands-section .brands h2 {
@@ -402,9 +401,13 @@ form {
     margin-bottom: 30px;
 }
 
-.brand-image, .brand-image2 {
+.brands {
     display: flex;
-    margin-left: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 120%;
+    padding-bottom: 30px;
+    padding-right: 50px
 }
 
 #hero-section, #quote-section, #process-section, #offer-section, #Contact-us-section, #Brands-section, #testi-section {
@@ -601,6 +604,7 @@ form {
 .copy-right {
     color: #939191;
     font-size: 12px;
+    margin-top: 20px;
 }
 
 /* mobile view */
@@ -608,6 +612,8 @@ form {
     .main-header {
         flex-direction: column;
         align-items: flex-start;
+        margin: 0px;
+        padding: 30px;
     } 
 
     .right-section {
@@ -649,10 +655,13 @@ form {
 
     #hero-section .text-section {
         order: 2;
+        padding: 5px;
     }
 
     #hero-section .image-section {
         order: 1;
+        width: 80%;
+        margin-bottom: 30px;
     }
 
     .text-section h1 {
@@ -681,9 +690,18 @@ form {
         width: 80%;
     }
 
-    #quote-section .left-section h2, #quote-section .right-form-section h3 {
+    #quote-section .left-section h2 {
         font-size: 35px;
-        margin-left: 20px;
+        padding-right: 20%;
+    }
+
+    #quote-section ul {
+        padding-left: 20px;
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 35px;
+        padding: 15px;
     }
 
     #quote-section .left-section {
@@ -695,20 +713,33 @@ form {
     }
 
     form {
-        margin-left: 20px;
+        margin-left: 30px;
+        width: 80%;
+    }
+
+    .orange-btn {
+        font-size: 14px;
+        margin-left: 10px;
     }
 
     #process-section .process-text, #process-section .right-process {
         width: 100%;
     }
 
+    #process-section .container {
+        width: 80%;
+    }
+
     #process-section .process-text h2 {
         width: 100%;
-        font-size: 45px;
+        font-size: 35px;
+        padding: 15px;
     }
 
     #process-section .process-text p {
         width: 100%;
+        margin-left: 15px;
+        font-size: 20px;
     }
 
     #process-section .process-text {
@@ -735,35 +766,35 @@ form {
 
     #Contact-us-section .contact-image {
         width: 100%;
-        height: 50vh;
-        margin-bottom: 30%;
+        height: 130px;
+        margin-bottom: 15%;
     }
 
     #Contact-us-section .contact-text {
-        height: 50vh;
+        height: 90px;
         margin: 15px 0;
-        margin-top: 30%;
+        margin-top: 25%;
         width: 100%;
     }
 
     #Contact-us-section .contact-textbox h3 {
-        height: 25vh;
-        font-size: 20px;
+        height: 40px;
+        font-size: 14px;
         margin-bottom: 10px;
         margin-left: 10px;
         padding-top: 16px
     }
 
     #Contact-us-section .black-btn {
-        padding: 5px 0px;
-        font-size: 18px;
+        padding: 5px 15px;
+        font-size: 14px;
         margin-top: 1px;
-        margin-left: 10px;
+        margin-left: 30%;
     }
 
     #Contact-us-section .contact-image2 {
         width: 100%;
-        height: 45vh;
+        height: 100px;
     }
 
     .container {
@@ -774,8 +805,16 @@ form {
         text-align: center;
     }
 
-    .brand-image, .brand-image2 {
+    #Brands-section .brands h2 {
+        font-size: 40px;
+    }
+
+    .brand-images {
         flex-direction: column;
+    }
+
+    .brand-images .image-row {
+        width: 50%;
     }
 
     #testi-section .testi-slider {
@@ -794,25 +833,46 @@ form {
         margin-left: 30%;
     }
 
+    #faq-section .container {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+
+    #faq-section .container h2 {
+        /* padding-bottom: 30px; */
+        font-size: 35px;
+    }
+
     .faq-main-box {
         width: 100%;
     }
 
-    #footer-section .footer-left, #footer-section .footer-right {
-        width: 100%;
+    .answer-box p {
+        font-size: 12px;
     }
+
+    #footer-section .footer-left {
+        width: 100%;
+        padding-right: 10%;
+    }
+
     .footer-left h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #footer-section .footer-right {
+        width: 100%;
         margin-top: 30px;
         padding-right: 30px;
     }
 
+    .footer-right .footer-text {
+        margin-right: 10%;
+    }
+
     .footer-right p {
-        margin: 10px;
-        font-size: 10px;
+        /* margin: 10px; */
+        font-size: 12px;
     }
 
     .main-bottom {
@@ -825,6 +885,12 @@ form {
 
     .right-bottom-section ul li {
         padding: 10px 0;
-        margin-right: 0;
+        /* margin-right: 0; */
+        margin-left: 30px;
     }
-}
+
+    .right-bottom-section .nagivation {
+        text-align: center;
+    }
+
+    }
