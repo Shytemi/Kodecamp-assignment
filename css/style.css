@@ -610,10 +610,7 @@ form {
     body {
         overflow: hidden;
     }
-
-    .container {
-        overflow: hidden;
-    }
+    
     .main-header {
         flex-direction: column;
         align-items: flex-start;
