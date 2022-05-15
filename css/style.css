@@ -127,7 +127,8 @@
 
 #quote-section .left-section h2 {
     margin-bottom: 30px;
-    font-size: 58px;
+    margin-right: 30px;
+    font-size: 48px;
 }
 
 #quote-section .left-section .image-box {
@@ -784,15 +785,15 @@ form {
     #Contact-us-section .contact-textbox h3 {
         height: 40px;
         font-size: 14px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        padding-top: 16px
+        /* margin-bottom: 10px; */
+        /* margin-left: 10px; */
+        padding-top: 25px
     }
 
     #Contact-us-section .black-btn {
         padding: 5px 15px;
-        font-size: 14px;
-        margin-top: 1px;
+        font-size: 16px;
+        margin-top: 5px;
         margin-left: 30%;
     }
 
@@ -810,12 +811,12 @@ form {
     }
 
     #Brands-section .brand-header h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .brands {
         width: 100%;
-        padding: 30px;
+        padding: 15px;
     }
 
     .brands .brand-img {
@@ -840,6 +841,7 @@ form {
 
     #faq-section .container {
         padding: 15px;
+        margin-bottom: 40px;
     }
 
     #faq-section .container h2 {
@@ -946,7 +948,7 @@ form {
     }
 
     #offer-section .flex-box {
-        width: 32%;
+        width: 24%;
     }
 
     #Contact-us-section .contact-textbox h3 {
@@ -958,7 +960,7 @@ form {
         font-size: 14px;
         margin-top: 25px;
         margin-left: 10px;
-        padding: 15px;
+        padding: 5px;
     }
 
     #Brands-section h2, .footer-left h2 {
