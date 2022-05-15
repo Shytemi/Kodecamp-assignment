@@ -114,7 +114,7 @@
 }
 
 #quote-section .left-section, #quote-section .right-form-section {
-    width: 55%;
+    width: 45%;
 }
 
 #quote-section ul {
@@ -395,17 +395,28 @@ form {
     padding-bottom: 70px;
 }
 
-#Brands-section .brands h2 {
+.brand-header h2 {
     font-size: 35px;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .brands {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 120%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.brands img {
+    width: 80%;
+}
+
+.brand-img {
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 20%;
 }
 
 #hero-section, #quote-section, #process-section, #offer-section, #Contact-us-section, #Brands-section, #testi-section {
@@ -798,16 +809,17 @@ form {
         text-align: center;
     }
 
-    #Brands-section h2 {
-        font-size: 40px;
+    #Brands-section .brand-header h2 {
+        font-size: 30px;
     }
 
     .brands {
-        flex-direction: column;
+        width: 100%;
+        padding: 30px;
     }
 
-    .brands .image-row {
-        width: 60%;
+    .brands .brand-img {
+        width: 50%;
     }
 
     #testi-section .testi-slider {
@@ -886,3 +898,90 @@ form {
     }
 
 }
+
+ /* Tablet view */
+ @media (max-width: 769px) {
+     .container {
+         width: 90%;
+     }
+
+    .road-assistance {
+        display: none;
+    }
+
+    .text-section h1 {
+        font-size: 35px;
+    }
+
+    #quote-section .flex {
+        justify-content: space-between;
+    }
+
+    #quote-section .left-section h2 {
+        font-size: 35px;
+    }
+
+    #quote-section .left-section .image-box {
+        width: 15%;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 80%;
+    }
+
+    #quote-section .right-form-section h3, #testi-section h2, #faq-section h2 {
+        font-size: 40px;
+    }
+
+    #process-section .process-text h2 {
+        font-size: 35px;
+    }
+
+    #offer-section .flex {
+        margin-bottom: 20px;
+    }
+
+    #offer-section .offer-header h6 {
+        font-size: 40px;
+    }
+
+    #offer-section .flex-box {
+        width: 32%;
+    }
+
+    #Contact-us-section .contact-textbox h3 {
+        font-size: 16px;
+        padding-top: 35px;
+    }
+
+    #Contact-us-section .black-btn {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 10px;
+        padding: 15px;
+    }
+
+    #Brands-section h2, .footer-left h2 {
+        font-size: 35px;
+    }
+
+    #testi-section .testi-slide {
+        padding: 0px;
+    }
+
+    .testi-navigation {
+        margin-left: 40%;
+    }
+
+    .faq-main-box {
+        width: 80%;
+    }
+
+    .main-bottom .logo {
+        margin-right: 40px;
+    }
+
+    .copy-right {
+        margin-top: 2px;
+    }
+ }
