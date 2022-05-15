@@ -851,6 +851,11 @@ form {
 
     .faq-main-box {
         width: 100%;
+        padding: 15px;
+    }
+
+    .faq-main-box .faq-box {
+        padding: 10px;
     }
 
     .answer-box p {
@@ -920,7 +925,7 @@ form {
     }
 
     #quote-section .left-section h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     #quote-section .left-section .image-box {
@@ -948,7 +953,7 @@ form {
     }
 
     #offer-section .flex-box {
-        width: 24%;
+        width: 150px;
     }
 
     #Contact-us-section .contact-textbox h3 {
@@ -977,6 +982,7 @@ form {
 
     .faq-main-box {
         width: 80%;
+        padding: 20px;
     }
 
     .main-bottom .logo {
